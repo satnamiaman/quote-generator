@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Quote Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body onload="gen()">
+    <!--Navigation -->
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://amansatnami.me/quote-generator/index.html">QuoteGenerator</a>
+    </div>
+  </div>
+</nav>
+
+<!--Quote Area-->
+
+    <div class="col-md-12 text-center">
+    <h3 id="txt"></h3>
+    </div>
+
+    <!--buttons-->
+    <div class="col-md-12 text-center">
+    <button type="button" class="btn btn-primary" id="button" onclick="gen()">Next Quote</button>
+
+    </div>
+  
+
+<!--footer-->
+ <footer id="foo">
+        <p><a href="http://amansatnami.me/quote-generator/about.html">About</p>
+      </footer>
+       <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
